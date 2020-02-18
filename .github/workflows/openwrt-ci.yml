@@ -12,7 +12,7 @@ name: OpenWrt-CI
 on:
   push:
     branches: 
-      - lean-lede
+      - dev-lean-lede
   # schedule:
   #   - cron: 0 20 * * *
   # release:
@@ -27,7 +27,7 @@ jobs:
     steps:
 
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@lean-lede
         with:
           ref: master
 
