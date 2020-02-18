@@ -27,7 +27,7 @@ jobs:
     steps:
 
       - name: Checkout
-        uses: actions/checkout@lean-lede
+        uses: actions/checkout@ master
         with:
           ref: master
 
