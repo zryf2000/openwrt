@@ -12,7 +12,7 @@ name: OpenWrt-CI
 on:
   push:
     branches: 
-      - dev-lean-lede
+      - lean-lede
   # schedule:
   #   - cron: 0 20 * * *
   # release:
